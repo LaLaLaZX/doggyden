@@ -1,0 +1,1443 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+
+.main-box {
+    padding-top: 40px;
+    background-image: url(image/main_bg.png);
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+    margin-bottom: 0px;
+}
+
+.navigation-ind {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.nav-text {
+    font-family: 'Srbija Sans';
+    font-size: 24px;
+    color: #F8EFEF;
+    margin-right: 50px;
+}
+
+.nav-list {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.logo {
+    margin-right: 400px;
+}
+
+.main-title {
+    font-family: 'Srbija Sans';
+    font-size: 46px;
+    color: #F8EFEF;
+    max-width: 750px;
+    margin-top: 50px;
+    line-height: 70px;
+    font-weight: 100;
+}
+
+.main-text {
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 26px;
+    color: #F8EFEF;
+    max-width: 600px;
+    margin-top: 50px;
+    line-height: 40px;
+}
+
+.main-bt-box {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.main-bt {
+    width: 300px;
+    height: 70px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid;
+    border-color: #C1473B;
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 24px;
+    color: #F8EFEF;
+    border-radius: 3px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 70px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    cursor: pointer;
+}
+
+.main-bt:hover {
+    background-color: #C1473B;
+}
+
+.registration-box {
+    background-color: #0A0301;
+}
+
+.reg-box {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.reg-input-box {
+    margin-left: 90px;
+}
+
+.reg-img-box {
+    width: 50%;
+}
+
+.reg-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.reg-input {
+    width: 600px;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid;
+    border-color: #C1473B;
+    border-radius: 3px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: #F8EFEF;
+}
+
+.reg-input:nth-child(1) {
+    margin-top: 20px;
+}
+
+.reg-bt {
+    height: 60px;
+    border: none;
+    border: 1px solid;
+    border-color: #C1473B;
+    border-radius: 3px;
+    background-color: transparent;
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: #F8EFEF;
+    cursor: pointer;
+}
+
+.reg-bt:hover {
+    background-color: #C1473B;
+}
+
+
+.auth-title {
+    font-family: 'Srbija Sans';
+    font-size: 36px;
+    color: #F8EFEF;
+    max-width: 750px;
+    line-height: 70px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.auth-box {
+    width: 550px;
+    height: 530px;
+    background-color: #000000;
+    border: 3px solid;
+    border-color: #C1473B;
+    border-radius: 3px;
+    margin: 0 auto;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 10%;
+    display: none;
+}
+
+.up {
+    display: block;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.auth-input {
+    width: 280px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid;
+    border-color: #C1473B;
+    border-radius: 3px;
+    padding-left: 20px;
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 16px;
+    padding-bottom: 5px;
+    color: #F8EFEF;
+    margin: 20px auto;
+}
+
+.close {
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.close-box {
+    width: 550px;
+    height: 70px;
+}
+
+.auth-bt {
+    height: 40px;
+    width: 302px;
+    border: none;
+    border: 1px solid;
+    border-color: #C1473B;
+    border-radius: 3px;
+    background-color: transparent;
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 16px;
+    padding-bottom: 5px;
+    color: #F8EFEF;
+    cursor: pointer;
+    margin: 20px auto 0 auto;
+}
+
+.auth-bt:hover {
+    background-color: #C1473B;
+}
+
+.to-reg {
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 12px;
+    color: #F8EFEF;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.message {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    border: 1px solid;
+    border-color: #C1473B;
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 26px;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5px;
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 9%;
+    /* display: none; */
+}
+
+.admin-box {
+    background-color: #000000;
+    padding-bottom: 500px;
+}
+
+.logo-adm {
+    padding-top: 30px;
+}
+
+.table-text {
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 20px;
+    color: #F8EFEF;
+}
+
+.table-text:hover {
+    text-shadow: 0 0 30px white;
+}
+
+
+.table-link {
+    text-decoration: none;
+}
+
+.table-link-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.admin-bt {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid;
+    border-color: #C1473B;
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 24px;
+    color: #F8EFEF;
+    border-radius: 3px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 70px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    cursor: pointer;
+    float: right;
+}
+
+.head-admin {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.admin-bt:hover {
+    background-color: #C1473B;
+}
+
+.profile-logo {
+    padding-top: 30px;
+}
+
+.profile-box {
+    background-color: #000000;
+    padding-left: 100px;
+
+}
+
+.profile {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.profile-text {
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 20px;
+    color: #F8EFEF;
+    margin-bottom: 30px;
+}
+
+.h-captcha {
+    text-align: center;
+}
+
+.dog-box {
+    position: relative;
+    display: inline-block;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.dog-box:hover .overlay {
+    opacity: 1;
+}
+
+.dog-img {
+    height: 500px;
+    border-radius: 3px;
+}
+
+.overlay h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.overlay p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.main-title-second {
+    font-family: 'Srbija Sans';
+    font-size: 46px;
+    color: #F8EFEF;
+    max-width: 1000px;
+    margin-top: 50px;
+    line-height: 70px;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.second-main-box {
+    background-color: #070707;
+    margin-top: -100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.help-title {
+    font-family: 'Srbija Sans';
+    font-size: 25px;
+    color: #F8EFEF;
+    max-width: 400px;
+    margin-bottom: 20px;
+
+}
+
+.help-box {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.help-img {
+    width: 600px;
+}
+
+.span-text {
+    text-align: justify;
+    float: right;
+    margin-bottom: 50px;
+}
+
+.span-title {
+    text-align: right;
+    float: right;
+    margin-right: -90px;
+    margin-bottom: 20px;
+}
+
+.help-text {
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 20px;
+    color: #F8EFEF;
+    max-width: 500px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.main-bt-link {
+    text-decoration: none;
+    color: #F8EFEF;
+}
+
+.main-bt-two {
+    width: 300px;
+    height: 70px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid;
+    border-color: #C1473B;
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 24px;
+    color: #F8EFEF;
+    border-radius: 3px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 70px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    cursor: pointer;
+    float: right;
+}
+
+.main-bt-two:hover {
+    background-color: #C1473B;
+}
+
+footer {
+    background-color: #070707;
+}
+
+.foot-link {
+    text-decoration: none;
+    color: #F8EFEF;
+}
+
+.foot-text {
+    font-family: 'Srbija Sans';
+    font-size: 15px;
+    color: #F8EFEF;
+    margin-right: 30px;
+}
+
+.foot-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-text-left {
+    display: flex;
+}
+
+.foot-text-right {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.our-pets-box {
+    background-color: #070707;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.pets-title {
+    font-family: 'Srbija Sans';
+    font-size: 46px;
+    color: #F8EFEF;
+
+    margin-top: 50px;
+    line-height: 70px;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.dog-text {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.dog-title {
+    font-size: 30px;
+}
+
+.our-dogs-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    max-width: 1900px;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+
+.dog-img {
+    margin-bottom: 100px;
+}
+
+.textarea-shelter {
+    background-color: transparent;
+    border-radius: 3px;
+    border-color: #C1473B;
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: #F8EFEF;
+    width: 610px;
+    height: 150px;
+    padding-left: 25px;
+    padding-top: 18px;
+    margin-bottom: 50px;
+}
+
+.input-shelter {
+    width: 637px;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid;
+    border-color: #C1473B;
+    border-radius: 3px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: #F8EFEF;
+}
+
+.shelter-bt {
+    height: 60px;
+    width: 640px;
+    border: none;
+    border: 1px solid;
+    border-color: #C1473B;
+    border-radius: 3px;
+    background-color: transparent;
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: #F8EFEF;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.shelter-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.shelter-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.shelter-img {
+    height: 500px;
+}
+
+.shelter-bt:hover {
+    background-color: #C1473B;
+}
+
+.shelter-text {
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 20px;
+    line-height: 22px;
+    color: #F8EFEF;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* медиазапросы для главной */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .container {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .navigation {
+        padding-top: 40px;
+    }
+
+    .nav-text {
+        font-size: 10px;
+        margin-right: 50px;
+    }
+
+    .nav-list {
+        list-style-type: none;
+        cursor: pointer;
+    }
+
+    .logo {
+        margin-right: 220px;
+        width: 100px;
+    }
+
+    .profile {
+        width: 15px;
+    }
+
+    .main-title {
+        font-size: 30px;
+    }
+
+    .main-text {
+        font-size: 20px;
+        color: #F8EFEF;
+        max-width: 350px;
+        margin-top: 30px;
+        line-height: 25px;
+    }
+
+    .main-bt-box {
+        width: 300px;
+        margin-top: 40px;
+    }
+
+    .main-bt {
+        width: 140px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .main-title-second {
+        font-size: 30px;
+        max-width: 700px;
+        margin-top: 30px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+
+
+    .help-title {
+        font-size: 18px;
+        max-width: 400px;
+        margin-bottom: 10px;
+    }
+
+    .help-box {
+        margin-bottom: 30px;
+    }
+
+    .help-img {
+        display: none;
+    }
+
+    .help-text {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .main-bt-two {
+        width: 140px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .foot-text {
+        font-size: 10px;
+        margin-right: 30px;
+    }
+
+    .foot-img {
+        width: 100px;
+        margin-left: -20px;
+    }
+
+}
+
+@media screen and (max-width: 376px) {
+
+    .container {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .navigation {
+        padding-top: 10px;
+    }
+
+    .nav-text {
+        font-size: 8px;
+        margin-right: 10px;
+    }
+
+    .logo {
+        margin-right: 50px;
+        width: 100px;
+    }
+
+    .profile {
+        width: 12px;
+    }
+
+    .main-title {
+        font-size: 20px;
+    }
+
+    .main-text {
+        font-size: 12px;
+        max-width: 200px;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+
+    .main-bt-box {
+        width: 150px;
+        margin-top: 40px;
+    }
+
+    .main-bt {
+        width: 70px;
+        height: 20px;
+        font-size: 5px;
+        line-height: 25px;
+        padding-bottom: 0px;
+    }
+
+    .main-title-second {
+        font-size: 20px;
+        max-width: 700px;
+        margin-top: 10px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+
+
+    .help-title {
+        font-size: 10px;
+        max-width: 270px;
+        margin-bottom: 10px;
+    }
+
+    .help-box {
+        margin-bottom: 30px;
+    }
+
+    .help-img {
+        display: none;
+    }
+
+    .help-text {
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+
+    .main-bt-two {
+        width: 70px;
+        height: 20px;
+        font-size: 5px;
+        line-height: 25px;
+        margin-top: -20px;
+        padding-bottom: 0px;
+    }
+
+    /* footer {
+        margin-top: -90px;
+    } */
+
+    .foot-text {
+        font-size: 5px;
+        margin-right: 10px;
+    }
+
+    .foot-img {
+        width: 50px;
+        margin-left: -10px;
+    }
+
+}
+
+/* медиазапросы для наших питомцев */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .our-pets-box {
+        background-color: #070707;
+        padding-bottom: 50px;
+    }
+
+    .pets-title {
+        font-size: 30px;
+        margin-top: 30px;
+        line-height: 30px;
+    }
+
+    .dog-img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .dog-text {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .dog-title {
+        font-size: 20px;
+        margin-bottom: -10px;
+    }
+
+    .our-dogs-box {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+
+    }
+
+    .textarea-shelter {
+        background-color: transparent;
+        border-radius: 3px;
+        border-color: #C1473B;
+        font-family: 'Aref Ruqaa Ink';
+        font-size: 20px;
+        padding-bottom: 5px;
+        color: #F8EFEF;
+        width: 610px;
+        height: 150px;
+        padding-left: 25px;
+        padding-top: 18px;
+        margin-bottom: 50px;
+    }
+
+    .input-shelter {
+        width: 600px;
+        height: 60px;
+        background-color: transparent;
+        border: none;
+        border: 1px solid;
+        border-color: #C1473B;
+        border-radius: 3px;
+        margin-bottom: 50px;
+        padding-left: 30px;
+        font-family: 'Aref Ruqaa Ink';
+        font-size: 20px;
+        padding-bottom: 5px;
+        color: #F8EFEF;
+    }
+
+    .shelter-bt {
+        height: 60px;
+        width: 640px;
+        border: none;
+        border: 1px solid;
+        border-color: #C1473B;
+        border-radius: 3px;
+        background-color: transparent;
+        font-family: 'Aref Ruqaa Ink';
+        font-size: 20px;
+        padding-bottom: 5px;
+        color: #F8EFEF;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+
+    .shelter-img {
+        display: none;
+    }
+
+    .shelter-text {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 376px) {
+    .our-pets-box {
+        background-color: #070707;
+        padding-bottom: 50px;
+    }
+
+    .pets-title {
+        font-size: 20px;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+
+    .dog-img {
+        width: 100px;
+        height: 150px;
+    }
+
+    .dog-text {
+        font-size: 7px;
+        line-height: 10px;
+    }
+
+    .dog-title {
+        font-size: 10px;
+        margin-bottom: -20px;
+    }
+
+    .our-dogs-box {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    .textarea-shelter {
+        font-size: 15px;
+        padding-bottom: 5px;
+        color: #F8EFEF;
+        width: 332px;
+        height: 100px;
+        padding-left: 25px;
+        padding-top: 18px;
+        margin-bottom: 30px;
+    }
+
+    .input-shelter {
+        width: 326px;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+        border: 1px solid;
+        border-color: #C1473B;
+        border-radius: 3px;
+        margin-bottom: 30px;
+        padding-left: 30px;
+        font-family: 'Aref Ruqaa Ink';
+        font-size: 15px;
+        padding-bottom: 5px;
+        color: #F8EFEF;
+    }
+
+    .shelter-bt {
+        height: 30px;
+        width: 360px;
+        border: none;
+        border: 1px solid;
+        border-color: #C1473B;
+        border-radius: 3px;
+        background-color: transparent;
+        font-family: 'Aref Ruqaa Ink';
+        font-size: 15px;
+        padding-bottom: 5px;
+        color: #F8EFEF;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    .shelter-img {
+        display: none;
+    }
+
+    .shelter-text {
+        font-size: 10px;
+    }
+}
+
+.about-company-box {
+    background-color: #070707;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.about-slider {
+    max-width: 1300px;
+}
+
+.image-slider {
+    width: 280px;
+}
+
+.about-text {
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 20px;
+    color: #F8EFEF;
+    max-width: 700px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.about-dog-img {
+    width: 700px;
+    position: absolute;
+    margin-left: -700px;
+    margin-top: -70px;
+}
+
+.info-about-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
+
+.input-shelter {
+    cursor: pointer;
+    appearance: none;
+    /* Скрываем стандартные стрелки выпадающего списка */
+
+}
+
+.input-shelter option {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 1);
+    color: #F8EFEF;
+}
+
+.placeholder-option {
+    color: grey;
+    /* Цвет текста для опции "Какую собаку вы хотите забрать?" */
+}
+
+.book-box {
+    background-color: black;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.book-text {
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 24px;
+    color: #F8EFEF;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+
+.book-info-box {
+    margin-top: 100px;
+}
+
+.book-bt {
+    height: 60px;
+    width: 669px;
+    border: none;
+    border: 1px solid;
+    border-color: #C1473B;
+    border-radius: 3px;
+    background-color: transparent;
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: #F8EFEF;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.book-bt:hover {
+    background-color: #C1473B;
+}
+
+.book-info-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.book-dog {
+    width: 600px;
+    margin-top: -50px;
+}
+
+.volunteer-box {
+    background-color: #070707;
+    padding-bottom: 30px;
+}
+
+.volunteer-bt {
+    height: 60px;
+    width: 669px;
+    border: none;
+    border: 1px solid;
+    border-color: #C1473B;
+    border-radius: 3px;
+    background-color: transparent;
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: #F8EFEF;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.volunteer-bt:hover {
+    background-color: #C1473B;
+}
+
+.volunteer-text {
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 22px;
+    color: #F8EFEF;
+    text-align: justify;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: -4px;
+}
+
+.volunteer-info-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.volunteer-img {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.volunteer-left-box {
+    margin-right: 50px;
+}
+
+.volunteer-right-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-box {
+    background-color: #070707;
+}
+
+.textarea-contacts {
+    background-color: transparent;
+    border-radius: 3px;
+    border-color: #C1473B;
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: #F8EFEF;
+    width: 644px;
+    height: 150px;
+    padding-left: 25px;
+    padding-top: 18px;
+    margin-bottom: 50px;
+}
+
+.contacts-subtitle {
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 26px;
+    color: #F8EFEF;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: -70px;
+}
+
+.contact-text {
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 22px;
+    color: #F8EFEF;
+    margin-top: 30px;
+}
+
+.contacts-info-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-right-box {
+    margin-top: 30px;
+}
+
+.cont-text {
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 20px;
+    line-height: 22px;
+    color: #F8EFEF;
+    max-width: 500px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.contacts-box {
+    padding-bottom: 100px;
+}
+
+.profile-bt {
+    width: 300px;
+    height: 70px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid;
+    border-color: #C1473B;
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 24px;
+    color: #F8EFEF;
+    border-radius: 3px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 70px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.profile-bt:hover {
+    background-color: #C1473B;
+}
+
+.redactor-box {
+    background-color: #070707;
+}
+
+.redac {
+    text-align: center;
+}
+
+.prof-title{
+    font-family: 'Srbija Sans';
+    font-size: 30px;
+    color: #F8EFEF;
+    max-width: 750px;
+    margin-top: 50px;
+    line-height: 70px;
+    font-weight: 100;
+}
+
+.profff {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.dog-img-two {
+    width: 100px;
+    margin-right: 30px;
+}
+
+.table-box {
+    background-color: #070707;
+    
+}
+
+.pets-title-tb {
+    font-family: 'Srbija Sans';
+    font-size: 46px;
+    color: #F8EFEF;
+
+    margin-top: 50px;
+    line-height: 70px;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+/* 
+tr {
+    color: #F8EFEF;
+    width: 1000px;
+    display: flex;
+}
+
+td {
+    color: #F8EFEF;
+    
+} */
+
+.table-box {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.table-one {
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #111;
+}
+
+th {
+    background-color: #222;
+    color: #fff;
+}
+
+
+
+.table-box-two {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    width: 100%; /* Задайте ширину подходящую для вашего макета */
+    margin: 0 auto;
+    padding-bottom: 700px;
+}
+
+.table-name {
+    text-align: center;
+}
+
+.user-inp {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #F8EFEF;
+    background-color: transparent;
+    color: #F8EFEF;
+}
+
+.add-but {
+    width: 324px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border: 1px solid;
+    border-color: #F8EFEF;
+    background-color: transparent;
+    color: #F8EFEF;
+    cursor: pointer;
+}
+
+.error-box {
+    background-color: #070707;
+    padding-top: 150px;
+    padding-bottom: 600px;
+}
+
+.error-title {
+    font-family: 'Srbija Sans';
+    font-size: 46px;
+    color: #F8EFEF;
+    max-width: 750px;
+    line-height: 70px;
+    font-weight: 100;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    
+}
+
+.error-text {
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 26px;
+    color: #F8EFEF;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.error-link {
+    text-decoration: none;
+}
